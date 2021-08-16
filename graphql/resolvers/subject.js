@@ -19,7 +19,7 @@ module.exports = {
       throw new Error('Unauthenticated!');
     }
     const subject = new Subject({
-        subject: args.subjectInput.subject,
+        title: args.subjectInput.title,
 
       creator: req.subjectId
     });
